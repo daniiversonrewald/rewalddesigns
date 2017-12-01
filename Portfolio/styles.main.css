@@ -1,0 +1,320 @@
+@charset "UTF-8";
+#container {
+}
+
+#body {
+}
+
+#logo {
+	padding-top: 11px;
+	padding-right: 11px;
+	padding-bottom: 0px;
+	padding-left: 11px;
+	margin-left: 150px;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav {
+	background-color: #000000;
+	height: 121px;
+	margin-top: -129px;
+	color: #EFF0EB;
+	background-image: url(images/grey_wash_wall.png);
+}
+
+nav ul {
+	padding-top: 50px;
+	text-align: center;
+	padding-left: 100px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 18px;
+	padding-right: 55px;
+	padding-left: 55px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;	
+}
+
+nav ul li:hover {
+	background-color: #094138;
+	transition: background-color 1s ease-in .1s;
+	border: thin solid #FFFFFF;
+	border-radius: 18px;
+}
+
+#welcome {
+	font-size: 18px;
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-top: 20px;
+}
+
+#gallery {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding-top: 40px;
+}
+
+#gallery img {
+	border-left: 6px solid #EFF0EB;
+	border-right: 6px solid #EFF0EB;
+	border-bottom: 40px solid #EFF0EB;
+	border-top: 10px solid #EFF0EB;
+}
+
+article {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article h2 {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	width: 1044px;
+	border-bottom: 2px dotted #363636;
+	text-align: center;
+	padding-top: 65px;
+}
+
+article p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+article h4 {
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.column1 {
+	max-width: 300px;
+	float: left;
+	padding-left: 60px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.column1 p {
+	text-align: left;
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column2 p {
+	text-align: left; 
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column3 p {
+	text-align: left; 
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column2 {
+	max-width: 300px;
+	float: left;
+	padding-left: 80px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.column3 {
+	max-width: 300px;
+	float: left;
+	padding-left: 80px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#content {
+	width: 900px;
+	color: #000000;
+	font-family: "Futura PT Book";
+	padding-top: 25px;
+	padding-bottom: 8px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#contactText {
+	color: #000000;
+	font-family: "Futura PT Book";
+	padding-bottom: 8px;
+	font-size: 18px;
+	width: 550px;
+	margin-left: 150px;
+	padding-top: 20px;
+}
+
+#aboutText {
+	font-size: 18px;
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#contactINFO h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	width: 1030px;
+	border-bottom: 2px dotted #363636;
+	text-align: center;
+	float: none;
+	clear: both;
+}
+
+#contactINFO {
+	float: none;
+	font-size: 18px;
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-bottom: 50px;
+}
+
+#lightbox {
+	margin-left: auto;
+	margin-right: auto;
+	width: 848px;
+}
+
+#lightbox img {
+	padding: 5px; 
+}
+
+
+#contain {
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+}
+
+table, th, td {
+	border: 1px solid #4A2222;
+	padding-top: 9px;
+	padding-right: 9px;
+	padding-left: 9px;
+	padding-bottom: 9px;
+	border-collapse: collapse;
+	font-family: "Futura PT Book";
+}
+
+th {
+	text-align: left;
+	background-color: #4A2222;
+	font-family: "Futura PT Book";
+	color: #EFF0EB;
+}
+
+table tr:nth-child(odd) td{
+	background-color: #DBC9BD;
+	color: #4A2222;	
+}
+
+table tr:nth-child(even) td{
+	background-color:#EFF0EB;
+	color: #4A2222; 
+}
+
+h3 {
+	font-family: "Bodoni 72 Bold";
+	color: #4A2222;
+	font-size: 32px;
+	border-bottom: thin dotted #DBC9BD;
+	margin-bottom: 4px;
+}
+
+#socialMedia {
+	max-width: 300px;
+	float: left; 
+	padding-top: 50px;
+	text-align: center;font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-left: 165px; 
+}
+
+#contact {
+	width: 518px;
+	height: 631px;
+	font-size: 19px;
+	margin-top: 50px;
+	color: #000000;
+	float: right;
+	margin-left: 210px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin-right: 150px;
+	margin-bottom: -175px;
+}
+
+fieldset {
+	border: 1px solid #565656;
+	background-color: #DFDFDF;
+	text-align: right;
+	padding-right: 200px;
+}
+
+legend {
+	background-color: #555555;
+	color: #EFF0EB;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 39px;
+}
+
+#map {
+	float: right;
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+
+#coffeeBanner {
+	width: 500px;
+	margin-left: 450px;
+}
+
+footer {
+	background-color: #000000;
+	height: 27px;
+	color: #EFF0EB;
+	clear: both;
+	text-align: center;
+	padding-top: 0px;
+	background-image: url(images/grey_wash_wall.png);
+}
+
+footer ul {
+	padding-top: 2px;
+	
+}
+
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 11px;
+	padding-right: 30px;
+	padding-left: 3px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;	
+}
